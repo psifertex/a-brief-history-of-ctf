@@ -270,8 +270,9 @@ Notes: Live CTF
 
 ---
 
-<!-- .slide: data-background="images/cgc.png" data-background-size="contain"  -->
 # Cyber Grand Challenge
+
+<iframe src="http://archive.darpa.mil/cybergrandchallenge/event.html" width="800" height="600" />
 
 Notes: mentioned during visualization, but there's a lot more to CGC: automation, reaction, scale
 
