@@ -90,13 +90,14 @@ Notes: here's an overview of the different events, don't want to cover them all,
 
 --
 
-# Wifi Badge
-
 ![](./images/badge.jpg)
 
-<!-- http://www.routards.org/2014/08/defcon-22-ctf-badger.html -->
+Notes: Badger was a beautiful piece of design released DEF CON 22. I know that badge design especially at DEF CON is itself now an entire subculture of its own right, but this badge pre-dated the influx of common badges, and even amongst all the cool designs this still remains one of the most impressive. Routards the only team to land, great team of CTF players who unfortunately were always so close to winning and always seemed to end up getting second place. Xilinx Spartan 6
+
+http://www.routards.org/2014/08/defcon-22-ctf-badger.html
 <!-- https://legitbs.net/2014/ -->
-Notes: this badge is a beautiful piece of design. I know that badge design especially at DEF CON is itself now an entire subculture of its own right, but this badge pre-dated the influx of common badges, and even amongst all the cool designs this still remains one of the most impressive. Routards the only team to land, great team of CTF players who unfortunately were always so close to winning and always seemed to end up getting second place.
+# Badger
+
 
 --
 
@@ -107,7 +108,6 @@ Notes: crazy amount of work went into clemency, development started over a year 
 - https://github.com/legitbs/cLEMENCy
 - https://blog.legitbs.net/2017/10/clemency-showing-mercy.html
 - https://2017.notmalware.ru/89dc90a0ffc5dd90ea68a7aece686544/clemency-201707271159.pdf
-
 
 ---
 
@@ -169,6 +169,7 @@ Notes: if you've seen my infiltrate talk you've seen a bunch of examples of the 
 
 --
 
+<!-- .slide: data-background="images/zork.jpg" -->
 # Choose Your PwnAdventure
 
 ```You are eaten by a grue.```
@@ -189,7 +190,7 @@ Notes: Unity based, dot-net is good for easy access to decompilers. In fact, it 
 
 <!-- <iframe src="http://pwnadventure.com/" width="800" height="600" />
 -->
-<iframe data-src="https://www.youtube.com/embed/PHZJ443zVM0?autoplay=1" width=800 height=600></iframe>
+<iframe data-src="https://www.youtube-nocookie.com/embed/PHZJ443zVM0?autoplay=1&amp;controls=0&amp;showinfo=0&amp;start=43" width=800 height=600></iframe>
 
 Notes: Unreal Engine definitely harder than PwnAdventure2, just finished a reverse engineering workshop that uses a modified version of this game, but you don't have to take our workshop to play with the
 
@@ -204,7 +205,7 @@ Notes: there have been so many others such as multiple circuits designed in mine
 
 ## PwnAdventureZ
 
-<iframe data-src="https://www.youtube.com/embed/G6t94p2anVA?autoplay=1" width=800 height=600></iframe>
+<iframe data-src="https://www.youtube-nocookie.com/embed/G6t94p2anVA?autoplay=1&amp;controls=0&amp;showinfo=0&amp;start=43" width=800 height=600></iframe>
 
 Note: you can try playing PwnAdventureZ outside as SCRT has setup an original NES console to play on! Note that because of the NTSC/PAL differences unfortunately the sound isn't quite right and it plays about 20% slower than normal, but otherwise should be just fine.
 
@@ -212,20 +213,88 @@ Note: you can try playing PwnAdventureZ outside as SCRT has setup an original NE
 
 # Visualizations
 
---
+Note: get it, a slide on visualizations that's the only blank one?! I AM HILARIOUS. 
+
+Visualizations are near and dear to my heart. There's been a long history of visualizations at CTFs though they almost all focus on the scoreboard. I think we can do better as a community by trying to come up with more interesting ways of visualizing CTFs to make them more approachable.
 
 --
 
---
+<!-- .slide: data-background="images/2002-defcon-scoreboard.png" data-background-size="contain" data-background-repeat="repeat" -->
+# Early Scoreboards
+
+Notes: lots of CTFs have scoreboards, they've been around for over 15 years now. Some early oens at DEF CON were even broadcast over the hotel's TV system to keep track no matter where you were. Not everyone had a cell phone they could surf the web with then I suppose. 
+
 
 --
+
+<iframe data-src="https://www.youtube-nocookie.com/embed/3u5u5A8_SE0?autoplay=1&amp;controls=0&amp;showinfo=0&amp;start=43" width=800 height=600></iframe>
+
+Notes: NICT's Daedalus has been used in a number of Japanese CTFs and is probably one of the flashiest looking interfaces.
+
+--
+
+<iframe data-src="https://www.youtube-nocookie.com/embed/NHArWZ887ns?autoplay=1&amp;controls=0&amp;showinfo=0&amp;start=0" width=800 height=600></iframe>
+
+Note: Cyber Grand Challenge visualization.
+
+--
+
+<iframe data-src="https://www.youtube-nocookie.com/2fk71DBw_lk?autoplay=1&amp;controls=0&amp;showinfo=0&amp;start=81" width=800 height=600></iframe>
+
+Note: Filament View
+
+Full list of DARPA visualization videos: https://www.youtube.com/playlist?list=PL6wMum5UsYvZx2x9QGhDY8j3FcQUH7uY0
+
+--
+
+<!-- .slide: data-background="images/livectf.jpg" -->
+
+<iframe data-src="https://www.youtube-nocookie.com/embed/D7uXE_lEzxI?autoplay=1&amp;controls=0&amp;showinfo=0&amp;start=1653" width=800 height=600></iframe>
+
+Notes: Live CTF
+Originally popularized by GeoHot, I love the idea of LiveCTFs. There's so much potential here, though unfortunately it's a lot of work to get going up. The biggest obstacles are getting challenges of the right length, and then the logistics of trying to do 
+livectf REDEMPTION by geohot 7/27/2014
+https://www.youtube.com/watch?v=td1KEUhlSuk
+
+Bad audio from DEF CON: https://www.youtube.com/watch?v=Jux_wKjTYws
+
+--
+
+<iframe data-src="https://www.youtube-nocookie.com/embed/Jux_wKjTYws?autoplay=1&amp;controls=0&amp;showinfo=0&amp;start=1337" width=800 height=600></iframe>
+
+Notes: Live CTF
+
+---
+
+<!-- .slide: data-background="images/cgc.jpg" data-background-size="contain"  -->
+# Cyber Grand Challenge
+
+Notes: mentioned during visualization, but there's a lot more to CGC: automation, reaction, scale
+
+Analysis Recap Video: https://www.youtube.com/playlist?list=PL6wMum5UsYvZx2x9QGhDY8j3FcQUH7uY0
 
 ---
 
 <!-- .slide: data-background="images/storytime.jpg" -->
 # Story Time!
 
-A quick summary of some of my favorite stories -- let me know yours, I'd love to archive/collect these. 
+A quick summary of some of my favorite stories -- let me know yours, I'd love to archive/collect these.
+
+--
+
+<!-- .slide: data-background="images/antenna.jpg" -->
+# Antenna Fun
+
+Notes: Hates Irony brought some military grade RF gear to the Rio only to find out that the foil covering on the windows to keep the sun out also does a great job keeping whatever frequencies out we were trying to use as well. The goal was a point-to-point network between a hotel suite and the game floor. For a long time, reliable networking between any players at the table at DEF CON and those that were remote was very difficult so we thought we'd fix that. Unfortunately, not only did the foil stop the signal, but the hotel security wasn't particularly happy with our teammates that were driving around the property, hopping out and pointing a giant antenna up at one of their hotel towers. They had a fun chat that was even caught on camera by someone else and posted to twitter.
+
+But while the antenna didn't work for our p2p network, we did come up with another fun idea. Fake Van Eck Phreaking!
+
+--
+
+<!-- .slide: data-background="images/lastplace.jpg" -->
+# Coming out of the closet
+
+Notes: One of the most precious commodities in an attack-defense CTF can be privacy and quiet. The CTF floor is often loud, distracting, but at the same time, that's where all the data is, so trying to set up a remote team doesn't work so well.
 
 --
 
@@ -239,12 +308,21 @@ A quick summary of some of my favorite stories -- let me know yours, I'd love to
  - curl command-injection (9447 v. hates irony, samurai v. apt8)
 <!-- .element: class="fragment" -->
 
+Notes: long history of teams breaking the tools of other teams in attack-defense CTFs
+
+--
+
+<!-- .slide: data-background="images/guitar-hero-logo.jpg" data-background-size="contain"  -->
+# Guitar Hero Ownage
+
+Notes: in-memory patcher and backdoor, because of drop-privs being the wrong order, huge lead, took time off to chill and play Guitar Hero they had such a lead (and hadn't even submitted all their flags until right before the game ended)
+
 --
 
 <!-- .slide: data-background="images/epic.jpg" -->
 # Nearly EPIC
 
- - VOIP scoreboard
+ - asterisk scoreboard
 <!-- .element: class="fragment" -->
  - cLEMENCy breakout
 <!-- .element: class="fragment" -->
@@ -289,17 +367,35 @@ Notes: lollerskaters from rofl copters dropped an epic BSD escape to cause major
 
 --
 
-<!-- .slide: data-background="images/fnat.jpg" -->
-# TCP/IP Timestamp
+<!-- .slide: data-background="images/fnat.png" -->
+# TCP/IP Shenanigans
 
-Notes: there was another hack that same year that wasn't quite as interesting but turned out to be quite helpful. Bellovin's research, didn't work to completely identify service poller, blocked specific throwing boxes
+Notes: there was another clever hack that same year that wasn't quite as interesting but turned out to be quite helpful. Bellovin's research, didn't work to completely identify service poller, blocked specific throwing boxes such as the lollerskater's thrower.
 
 --
 
-<!-- .slide: data-background="images/guitar-hero-logo.jpg" data-background-size="contain"  -->
-# Guitar Hero Ownage
+<!-- .slide: data-background="images/troll.jpg"  -->
+# Troll Challenges!
 
-Notes: in-memory patcher and backdoor, because of drop-privs being the wrong order
+ - "TrustMe"
+<!-- .element: class="fragment" -->
+ - HITCON "Perfection"
+<!-- .element: class="fragment" -->
+ - HackerBook
+<!-- .element: class="fragment" -->
+
+Notes: Troll challenges are when the organizers get to hack the participants back, or at least mess with them a little bit.
+
+RunMe style challenges have cropped up many times over the years, they're usually a heavily obfuscated/armored binary that is difficult to reverse, but it demands increasingly more control or data from your system. They might want to run as root, do verification to see that they're not running in a virtual machine, ask for a USB webcan to be plugged in, record audio from a mic, etc. Often times at the end of all of this, they will simply reveal a flag.  (TrustMeMore, from GITS, https://gist.github.com/withzombies/8514724, )
+
+HackerBook (https://ctftime.org/task/227) had several possible solutions (including one unintended), but one possible solution was to just type in the name of a bunch of hackers whose faces were shown in photos. k
+
+Perfection was an entire category of troll challenges at HITCON that were designed to break existing tools. Impeccable Artifact, for example, was specifically designed to abuse a bug in libseccomp to hide a subtle backdoor.
+
+--
+
+<!-- .slide: data-background="images/servers.jpg"  -->
+Notes: power cable versus shoe
 
 ---
 
@@ -316,6 +412,13 @@ Notes: there's a lot of work that could benefit the community. If you've had you
 <iframe src="https://captf1.captf.com/" width="800" height="600" />
 
 Notes: could definitely use someone to help me scrounge up more CTFs to mirror, they're a precious resource, let's not lose them! 
+
+--
+
+<!-- .slide: data-background="images/tools.jpg" -->
+# Write Tools!
+
+Note: Lots of great tools have origins in the CTF community. Many crypto apps, pwntools, QIRA, even Binary Ninja was originally a private Hates Irony tool written in Python before it was rewritten. Even if you don't want to poblish your tools while you are competing, as soon as you get too old for CTF like me, then you can release your code for everyone to benefit from.
 
 --
 
