@@ -18,6 +18,6 @@ if [ -d docs/_assets ]; then
 fi
 
 if [ "$UPLOAD" = true ]; then
-	git push origin :gh-pages
+	#git push origin :gh-pages
 	git subtree push --prefix docs origin gh-pages
 fi
