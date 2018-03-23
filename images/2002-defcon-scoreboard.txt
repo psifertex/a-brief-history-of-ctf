@@ -1,0 +1,8 @@
+@INPROCEEDINGS{Cowan03defconcapture,
+    author = {Crispin Cowan and Seth Arnold and Steve Beattie and Chris Wright and John Viega},
+    title = {Defcon Capture the Flag: Defending Vulnerable Code from Intense Attack},
+    booktitle = {In DARPA DISCEX III Conference, Washington DC},
+    year = {2003},
+    pages = {22--24},
+    publisher = {IEEE Computer Society Press}
+}
