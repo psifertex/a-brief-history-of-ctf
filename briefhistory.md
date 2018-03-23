@@ -270,7 +270,7 @@ Notes: Live CTF
 
 ---
 
-# Cyber Grand Challenge
+# CGC
 
 <iframe src="http://archive.darpa.mil/cybergrandchallenge/event.html" width="800" height="600" />
 
@@ -386,7 +386,7 @@ Notes: there was another clever hack that same year that wasn't quite as interes
 <!-- .element: class="fragment" -->
  - HackerBook
 <!-- .element: class="fragment" -->
- - experiment [BCTF 2015](https://docs.google.com/presentation/d/16m4D-fZyXypKPBb_H0F-Iov2TI_bSKYZhygP6GIi_dk/edit#slide=id.gcb4107855_0_681)
+ - experiment 
 <!-- .element: class="fragment" -->
  - HITCON "Perfection"
 <!-- .element: class="fragment" -->
@@ -399,6 +399,7 @@ HackerBook (https://ctftime.org/task/227) had several possible solutions (includ
 
 Perfection was an entire category of troll challenges at HITCON that were designed to break existing tools. Impeccable Artifact, for example, was specifically designed to abuse a bug in libseccomp to hide a subtle backdoor.
 
+ Experiment: python trick BCTF 2015 https://docs.google.com/presentation/d/16m4D-fZyXypKPBb_H0F-Iov2TI_bSKYZhygP6GIi_dk/edit#slide=id.gcb4107855_0_681 
 --
 
 <!-- .slide: data-background="images/servers.jpg"  -->
