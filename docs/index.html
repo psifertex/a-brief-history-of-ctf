@@ -22,6 +22,15 @@
 
 <aside class="notes"><p>Talk slowly!</p>
 </aside></script></section><section data-markdown><script type="text/template">
+<!-- .slide: data-background="images/ctf.jpg" -->
+# Challenge!
+
+![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAAEsCAYAAAB5fY51AAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAAZiS0dEAAAAAAAA+UO7fwAAAAlwSFlzAAAASAAAAEgARslrPgAAB4hJREFUeNrt3TG26jAQREHtf9GGLZAYTfdUcEM+71tSkcyRz/M8H0lK6HgIkoAlScCSBCxJApYkAUsSsCQJWJIELEnAkiRgSRKwJAFLkoAlScCSBCxJApYkAUsSsCQJWJIELEnAkiRgSRKwJAFLkoAlScCSBCxJApYkYHkIkoAlScCSBCxJAtZvf8g51b39fG6vT/r+sH/vri+wgAUsYAELWMAClv0LLAsOLGABC1jAAhawgAUsYAHL/gWWBQcWsIAFLGABC1jA6jgQt//+tzeUA2X/Nvz9wAIWsOxfYFlwYAELWMACFrCABSwPDFjAsn+BZcGBBSxgAQtYwAIWsDwwYAHL/gXW7AP/9vcbnMwG2f4FlgUHFrCABSxgAQtYwAIWsIBl/wLLggMLWMACFrCABSxgAQtYwLJ/gWXBgQUsYAGrf8MabLR/gWXBgQUs+xdYFhxYwAIWsIAFLPsXWBYcWMCyf4FlwYEFLGABC1jAsn+BZcGBBSz7F1gWvPsCwfTBW/sXWBYcWMCyf4EFLGABC1jAAhaw7F9gWXBgAQtYwAIWsIAFLGABC1j2L7AsOLCABawNYLWD236B4PYfDOcPWMACFrCAZcGBBSz7F1jAAhawnD9gAQtY9i+wLDiwgGX/AgtYwAKW8wcsYAHL/gXWPx5Yeu3g+fzu/QssYPk8sIAFLGD5PLCABSwH1ueBBSxg+TywgAUsYPk8sIAFLAfW54EFLGD5PLCANXugTRk/GAZvBSwBC1gCloAFLGAJWMASsAQsYAlYAhawgCVgAUvAErCABSyDo+2Dg+0XCE4HG8jAAhawgAUsYAELWMACFrCABSxgAQtYwAIWsIAFLGABC1jAAhawgAUsYAELWMACVv5gZPrg6vYLIu0vYAELWMACFrCABSxgAQtYwAIWsIAFLGABC1jAAhawgAUsYAELWMACFrCABSxgJQzupQ+Opl/Q1z74234BI7CABSxgAQtYwAIWsIAFLGABC1jAAhawgAUsYAELWMACFrCABSxgAQtYwAIWsAyOThjM2z4Ymz6Y6vuBBSxgAQNYwAIWsIAFLGABC1i+H1jAAhYwgAUsYAELWMACFrCA5fuBBSxgAQNYLnjLv4Cu/cC0X2A4/QcfWMACFrCABSxgAQtYwAIWsIAFLGABC1jAAhawgAUsYAELWMACFrCABSxgAQtYLvCzIedfYJf+otP2gAUsYAELWMACFrAELGABC1jAAhawgAUsYAELWMASsIAFLGABC1jAApaA1QGWwcjZg6vpFwgCxwV+wAIWsIAFLGABC1jAAhawgAUsYAELWMACFrCABSxgAQtYwAIWsIAFLGABC1gGR/NfBJr+olcXNLqAEljAAhawgAUsYHn+wAIWsIAFLGABC1jAAhawgAUszx9YwAIWsIAFLGABC1jAApYXQaYPFrYfSC9idQEmsIAFLGABC1jAAhawgAUsYAELWMACFrCABSxgAQtYwAIWsIAFLGABC1jAAhawPHAHLvsHr/0CP4OjwAIWsIAFLGABC1jAAhawgAUsYAELWMACFrCABSxgAQtYwAIWsIAFLGABC1g7wJo+eDodXIOpLlis+GECFrCABSxgAQtYwAIWsIAFLGABC1jAAhawgAUsYAELWMACFrCABSxgAQtYwALW6gVtf1GpF7HuviARWMACFrCABSxgAQtYwAIWsIAFLGABC1jAAhawgAUsYAELWMACFrCABSxgAQtYHWDdPlDT//30A+1FuQZLgQUsYAELWMACFrCABSxgAQtYwAIWsIAFLGABC1jAAhawgAUsYAELWMACFrCApfQL6qa/yNMFgV6kKmABC1jAErAcWP9/YAELWMACloAFLGABS8ByYP3/gQUsYAELWAIWsIAFrPmDe+0Hdvr6bAdjy4tSgQUsYAELWMACFrCABSxgAQtYwAIWsIAFLGABC1jAAhawgAUsYAELWMACFrCAlT04mX4B4fYLDtNBABawgAUsYAELWMACFrCABSxgAQtYwAIWsIAFLGABC1jAAhawgAUsYAELWMACFrASBvfSBz+ngzj9+aYPLrf/4AMLWMACFrCABSxgAQtYwAIWsIAFLGABC1jAAhawgAUsYAELWMACFrCABSxgAQtYCRfwGbzNHsxsv0ARWMACFrCABSxgAQtYwAIWsIAFLGABC1jAAhawgAUsYAELWMACFrCABSxgAQtYwGoYvDSY2j042vKDCCxgAQtYwAIWsIAFLGABC1jAAhawgAUsYAELWMACFrCABSxgAQtYwAIWsIAFLC9SnTw4OX2wcfsFhAaTgQUsYAELWMACFrCABSxgAQtYwAIWsIAFLGABC1jAAhawgAUsYAELWMACFrCAlXBBWfrg3/TBwfYXjaYPPgMLWMACFrCABSxgAQtYwAIWsIAFLGABC1jAAhawgAUsYAELWMACFrCABSxgAasDLEkCliRgSRKwJAlYkoAlScCSJGBJApYkAUuSgCUJWJIELEnA8iAkAUuSgCUJWJIELEkCliRgSRKwJAlYkoAlScCSJGBJApYkAUuSgCUJWJIELEkCliRgSRKwJAlYksL7AhETKJ1MYhRsAAAAJXRFWHRkYXRlOmNyZWF0ZQAyMDE4LTAzLTIzVDA5OjU1OjIyKzAwOjAwWMmg6QAAACV0RVh0ZGF0ZTptb2RpZnkAMjAxOC0wMy0yM1QwOTo1NToyMiswMDowMCmUGFUAAAAodEVYdHN2ZzpiYXNlLXVyaQBmaWxlOi8vL3RtcC9tYWdpY2stVzgxNXVtWEUj558FAAAAAElFTkSuQmCC)
+
+```$ ssh insomnihack@ictf.psifertex.com #pw: insomnihack```
+
+<aside class="notes"><p>Challenge doesn&#39;t work with my payload, but it was 5am when I got it running so I didn&#39;t have much time to troubleshoot. If you can read <code>/flag</code> and follow the directions, I have a marvelous prize for you.</p>
+</aside></script></section><section data-markdown><script type="text/template">
 <!-- .slide: data-background="images/un.jpg" -->
 # UNbio
 
@@ -359,13 +368,24 @@ http://golden-flags.com/
 <aside class="notes"><p>debate comes up every year or two and is debated heavily. kyprizel does a great job of it, but it feels like it should be more of a community resource, though that supposes the community is actually willing to step it up</p>
 </aside></script></section></section><section  data-markdown><script type="text/template">
 <!-- .slide: data-background="images/credit.jpg" -->
-# CREDITS
+# CREDITS (1/2)
 
 - [Lovely series of CTF photos from Wikihow](https://www.wikihow.com/Play-Capture-the-Flag) licensed [(CC) by-nc-sa](https://creativecommons.org/licenses/by-nc-sa/3.0/)
 - Slides created with [reveal.js](https://revealjs.com/#/) and [reveal-md](https://github.com/webpro/reveal-md)
 - Other slide backgrounds from various CC licensed material, exact URLs available in github repository
 - CTF Organizers world-wide -- very few people know how much of your time, effort, and often times cash go into these events which can be very ephemeral events. It's truly a labor of love and the community benefits a ton from it!
 </script></section><section  data-markdown><script type="text/template">
+<!-- .slide: data-background="images/credit.jpg" -->
+# CREDITS (2/2)
+
+- [redford](https://twitter.com/DragonSectorCTF)
+- [@sk3wl](https://twitter.com/sk3wl)
+- [@tylerni7](https://twitter.com/tylerni7)
+- [@r3v](https://twitter.com/evilmegacorp)
+- My many CTF teammates, especially [@eipwned](https://twitter.com/eipwned), the solo developer of most of PwnAdventure series
+
+<aside class="notes"><p>Thanks to these fine folks for their ideas, stories, and review of the slides. k</p>
+</aside></script></section><section  data-markdown><script type="text/template">
 <!-- .slide: data-background="images/questions.jpg" -->
 # Questions?
 
@@ -399,9 +419,16 @@ SLIDES: https://github.com/psifertex/a-brief-history-of-ctf
 - https://www.blackhat.com/presentations/bh-asia-04/bh-jp-04-pdfs/bh-jp-04-eller/bh-jp-04-eller.pdf (GH's captain)
 - https://www.youtube.com/watch?v=MbIDrs-mB20 (DEF CON CTF organizer panel)
 </script></section></section><section  data-markdown><script type="text/template">
+<!-- .slide: data-background="images/ctf.jpg" -->
+# Challenge!
+
+If no one solved the previous challenge, first person to shout the answer to one wins:
+
+```____ ___ ______```
+</script></section><section  data-markdown><script type="text/template">
 <!-- .slide: data-background="images/pwnadventurez.jpg" -->
 
-<iframe data-src="https://www.youtube.com/embed/QXLP-L2ZgpQ?start=844" width=800 height=600></iframe>
+<iframe data-src="https://www.youtube-nocookie.com/embed/QXLP-L2ZgpQ?autoplay=1&amp;controls=0&amp;showinfo=0&amp;start=844" width=800 height=600></iframe>
 
 <aside class="notes"><p>The &quot;proper&quot; runthrough as intended was much longer!</p>
 </aside></script></section></div>

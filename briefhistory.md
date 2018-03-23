@@ -15,6 +15,17 @@ note: Talk slowly!
 
 --
 
+<!-- .slide: data-background="images/ctf.jpg" -->
+# Challenge!
+
+![](./images/chall.png)
+
+```$ ssh insomnihack@ictf.psifertex.com #pw: insomnihack```
+
+note: Challenge doesn't work with my payload, but it was 5am when I got it running so I didn't have much time to troubleshoot. If you can read `/flag` and follow the directions, I have a marvelous prize for you.
+
+--
+
 <!-- .slide: data-background="images/un.jpg" -->
 # UNbio
 
@@ -449,12 +460,25 @@ Notes: debate comes up every year or two and is debated heavily. kyprizel does a
 ---
 
 <!-- .slide: data-background="images/credit.jpg" -->
-# CREDITS
+# CREDITS (1/2)
 
 - [Lovely series of CTF photos from Wikihow](https://www.wikihow.com/Play-Capture-the-Flag) licensed [(CC) by-nc-sa](https://creativecommons.org/licenses/by-nc-sa/3.0/)
 - Slides created with [reveal.js](https://revealjs.com/#/) and [reveal-md](https://github.com/webpro/reveal-md)
 - Other slide backgrounds from various CC licensed material, exact URLs available in github repository
 - CTF Organizers world-wide -- very few people know how much of your time, effort, and often times cash go into these events which can be very ephemeral events. It's truly a labor of love and the community benefits a ton from it!
+
+---
+
+<!-- .slide: data-background="images/credit.jpg" -->
+# CREDITS (2/2)
+
+- [redford](https://twitter.com/DragonSectorCTF)
+- [@sk3wl](https://twitter.com/sk3wl)
+- [@tylerni7](https://twitter.com/tylerni7)
+- [@r3v](https://twitter.com/evilmegacorp)
+- My many CTF teammates, especially [@eipwned](https://twitter.com/eipwned), the solo developer of most of PwnAdventure series
+
+Notes: Thanks to these fine folks for their ideas, stories, and review of the slides. k
 
 ---
 
@@ -501,8 +525,17 @@ SLIDES: https://github.com/psifertex/a-brief-history-of-ctf
 
 ---
 
+<!-- .slide: data-background="images/ctf.jpg" -->
+# Challenge!
+
+If no one solved the previous challenge, first person to shout the answer to one wins:
+
+```____ ___ ______```
+
+---
+
 <!-- .slide: data-background="images/pwnadventurez.jpg" -->
 
-<iframe data-src="https://www.youtube.com/embed/QXLP-L2ZgpQ?start=844" width=800 height=600></iframe>
+<iframe data-src="https://www.youtube-nocookie.com/embed/QXLP-L2ZgpQ?autoplay=1&amp;controls=0&amp;showinfo=0&amp;start=844" width=800 height=600></iframe>
 
 Notes: The "proper" runthrough as intended was much longer!
