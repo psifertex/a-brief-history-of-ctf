@@ -186,24 +186,19 @@ Notes: Unity based, dot-net is good for easy access to decompilers. In fact, it 
 --
 
 <!-- .slide: data-background="images/pa3.png" -->
-## PwnAdventure 3
-
-<!-- <iframe src="http://pwnadventure.com/" width="800" height="600" />
--->
 <iframe data-src="https://www.youtube-nocookie.com/embed/PHZJ443zVM0?autoplay=1&amp;controls=0&amp;showinfo=0&amp;start=43" width=800 height=600></iframe>
 
-Notes: Unreal Engine definitely harder than PwnAdventure2, just finished a reverse engineering workshop that uses a modified version of this game, but you don't have to take our workshop to play with the
+Notes: PwnAdventure 3:
+Unreal Engine definitely harder to reverse engineer than PwnAdventure2, just finished a reverse engineering workshop that uses a modified version of this game, but you don't have to take our workshop to play with it, see the slide notes for the URL where you can download the older version of the game. https://pwnadventure.com/
 
 --
 
 <!-- .slide: data-background="images/paz.gif" -->
 ## PwnAdventureZ
 
-Notes: there have been so many others such as multiple circuits designed in minecraft (my favorite being permadeath bit you could set in the minecraft level so that if someone tried the challenge and died their level was deleted, though of course it's easily recovered via downloading from the score-server)
+Notes: For 30th anniversary of NES (2015), developed PwnAdventureZ
 
 --
-
-## PwnAdventureZ
 
 <iframe data-src="https://www.youtube-nocookie.com/embed/G6t94p2anVA?autoplay=1&amp;controls=0&amp;showinfo=0&amp;start=43" width=800 height=600></iframe>
 
@@ -239,15 +234,13 @@ Note: Cyber Grand Challenge visualization.
 
 --
 
-<iframe data-src="https://www.youtube-nocookie.com/2fk71DBw_lk?autoplay=1&amp;controls=0&amp;showinfo=0&amp;start=81" width=800 height=600></iframe>
+<iframe data-src="https://www.youtube-nocookie.com/embed/2fk71DBw_lk?autoplay=1&amp;controls=0&amp;showinfo=0&amp;start=81" width=800 height=600></iframe>
 
 Note: Filament View
 
 Full list of DARPA visualization videos: https://www.youtube.com/playlist?list=PL6wMum5UsYvZx2x9QGhDY8j3FcQUH7uY0
 
 --
-
-<!-- .slide: data-background="images/livectf.jpg" -->
 
 <iframe data-src="https://www.youtube-nocookie.com/embed/D7uXE_lEzxI?autoplay=1&amp;controls=0&amp;showinfo=0&amp;start=1653" width=800 height=600></iframe>
 
@@ -266,7 +259,7 @@ Notes: Live CTF
 
 ---
 
-<!-- .slide: data-background="images/cgc.jpg" data-background-size="contain"  -->
+<!-- .slide: data-background="images/cgc.png" data-background-size="contain"  -->
 # Cyber Grand Challenge
 
 Notes: mentioned during visualization, but there's a lot more to CGC: automation, reaction, scale
@@ -291,7 +284,7 @@ But while the antenna didn't work for our p2p network, we did come up with anoth
 
 --
 
-<!-- .slide: data-background="images/lastplace.jpg" -->
+<!-- .slide: data-background="images/tables.jpg" -->
 # Coming out of the closet
 
 Notes: One of the most precious commodities in an attack-defense CTF can be privacy and quiet. The CTF floor is often loud, distracting, but at the same time, that's where all the data is, so trying to set up a remote team doesn't work so well.
@@ -395,6 +388,7 @@ Perfection was an entire category of troll challenges at HITCON that were design
 --
 
 <!-- .slide: data-background="images/servers.jpg"  -->
+# Servers Need Power
 Notes: power cable versus shoe
 
 ---
