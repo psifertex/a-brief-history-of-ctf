@@ -383,9 +383,11 @@ Notes: there was another clever hack that same year that wasn't quite as interes
 
  - "TrustMe"
 <!-- .element: class="fragment" -->
- - HITCON "Perfection"
-<!-- .element: class="fragment" -->
  - HackerBook
+<!-- .element: class="fragment" -->
+ - experiment [BCTF 2015](https://docs.google.com/presentation/d/16m4D-fZyXypKPBb_H0F-Iov2TI_bSKYZhygP6GIi_dk/edit#slide=id.gcb4107855_0_681)
+<!-- .element: class="fragment" -->
+ - HITCON "Perfection"
 <!-- .element: class="fragment" -->
 
 Notes: Troll challenges are when the organizers get to hack the participants back, or at least mess with them a little bit.
